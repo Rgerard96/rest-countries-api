@@ -20,7 +20,7 @@ export default async function CountryName({ params }) {
                 <span>Back</span>
             </Link>
             {country.map((country, index) => (
-                <div className="flex flex-col sm:flex-row justify-between space-y-10 sm:space-y-0 sm:space-x-40 items-center">
+                <div key={index} className="flex flex-col sm:flex-row justify-between space-y-10 sm:space-y-0 sm:space-x-40 items-center">
                     <div className="h-60 sm:h-[450px] w-full relative sm:flex-1">
                         <Image
                             src={country.flags.svg}
@@ -48,7 +48,9 @@ export default async function CountryName({ params }) {
                             </div>
                         </div>
                         {country.borders &&
-                            <Borders countryBorders={country.borders} index={index} />
+                            <div key={index}>
+                                <Borders countryBorders={country.borders} />
+                            </div>
                         }
                     </div>
                 </div>
