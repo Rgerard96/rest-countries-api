@@ -1,0 +1,652 @@
+[
+    {
+        "name": {
+            "common": "Germany",
+            "official": "Federal Republic of Germany",
+            "nativeName": {
+                "deu": {
+                    "official": "Bundesrepublik Deutschland",
+                    "common": "Deutschland"
+                }
+            }
+        },
+        "tld": [
+            ".de"
+        ],
+        "cca2": "DE",
+        "ccn3": "276",
+        "cca3": "DEU",
+        "cioc": "GER",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "EUR": {
+                "name": "Euro",
+                "symbol": "€"
+            }
+        },
+        "idd": {
+            "root": "+4",
+            "suffixes": [
+                "9"
+            ]
+        },
+        "capital": [
+            "Berlin"
+        ],
+        "altSpellings": [
+            "DE",
+            "Federal Republic of Germany",
+            "Bundesrepublik Deutschland"
+        ],
+        "region": "Europe",
+        "subregion": "Western Europe",
+        "languages": {
+            "deu": "German"
+        },
+        "translations": {
+            "ara": {
+                "official": "جمهورية ألمانيا الاتحادية",
+                "common": "ألمانيا"
+            },
+            "bre": {
+                "official": "Republik Kevreadel Alamagn",
+                "common": "Alamagn"
+            },
+            "ces": {
+                "official": "Spolková republika Německo",
+                "common": "Německo"
+            },
+            "cym": {
+                "official": "Federal Republic of Germany",
+                "common": "Germany"
+            },
+            "deu": {
+                "official": "Bundesrepublik Deutschland",
+                "common": "Deutschland"
+            },
+            "est": {
+                "official": "Saksamaa Liitvabariik",
+                "common": "Saksamaa"
+            },
+            "fin": {
+                "official": "Saksan liittotasavalta",
+                "common": "Saksa"
+            },
+            "fra": {
+                "official": "République fédérale d'Allemagne",
+                "common": "Allemagne"
+            },
+            "hrv": {
+                "official": "Njemačka Federativna Republika",
+                "common": "Njemačka"
+            },
+            "hun": {
+                "official": "Német Szövetségi Köztársaság",
+                "common": "Németország"
+            },
+            "ita": {
+                "official": "Repubblica federale di Germania",
+                "common": "Germania"
+            },
+            "jpn": {
+                "official": "ドイツ連邦共和国",
+                "common": "ドイツ"
+            },
+            "kor": {
+                "official": "독일 연방 공화국",
+                "common": "독일"
+            },
+            "nld": {
+                "official": "Bondsrepubliek Duitsland",
+                "common": "Duitsland"
+            },
+            "per": {
+                "official": "جمهوری فدرال آلمان",
+                "common": "آلمان"
+            },
+            "pol": {
+                "official": "Republika Federalna Niemiec",
+                "common": "Niemcy"
+            },
+            "por": {
+                "official": "República Federal da Alemanha",
+                "common": "Alemanha"
+            },
+            "rus": {
+                "official": "Федеративная Республика Германия",
+                "common": "Германия"
+            },
+            "slk": {
+                "official": "Nemecká spolková republika",
+                "common": "Nemecko"
+            },
+            "spa": {
+                "official": "República Federal de Alemania",
+                "common": "Alemania"
+            },
+            "srp": {
+                "official": "Савезна Република Немачка",
+                "common": "Немачка"
+            },
+            "swe": {
+                "official": "Förbundsrepubliken Tyskland",
+                "common": "Tyskland"
+            },
+            "tur": {
+                "official": "Almanya Federal Cumhuriyeti",
+                "common": "Almanya"
+            },
+            "urd": {
+                "official": "وفاقی جمہوریہ جرمنی",
+                "common": "جرمنی"
+            },
+            "zho": {
+                "official": "德意志联邦共和国",
+                "common": "德国"
+            }
+        },
+        "latlng": [
+            51.0,
+            9.0
+        ],
+        "landlocked": false,
+        "borders": [
+            "AUT",
+            "BEL",
+            "CZE",
+            "DNK",
+            "FRA",
+            "LUX",
+            "NLD",
+            "POL",
+            "CHE"
+        ],
+        "area": 357114.0,
+        "demonyms": {
+            "eng": {
+                "f": "German",
+                "m": "German"
+            },
+            "fra": {
+                "f": "Allemande",
+                "m": "Allemand"
+            }
+        },
+        "flag": "\uD83C\uDDE9\uD83C\uDDEA",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/mD9FBMq1nvXUBrkv6",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/51477"
+        },
+        "population": 83240525,
+        "gini": {
+            "2016": 31.9
+        },
+        "fifa": "GER",
+        "car": {
+            "signs": [
+                "DY"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC+01:00"
+        ],
+        "continents": [
+            "Europe"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/de.png",
+            "svg": "https://flagcdn.com/de.svg",
+            "alt": "The flag of Germany is composed of three equal horizontal bands of black, red and gold."
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/de.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/de.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                52.52,
+                13.4
+            ]
+        },
+        "postalCode": {
+            "format": "#####",
+            "regex": "^(\\d{5})$"
+        }
+    },
+    {
+        "name": {
+            "common": "Curaçao",
+            "official": "Country of Curaçao",
+            "nativeName": {
+                "eng": {
+                    "official": "Country of Curaçao",
+                    "common": "Curaçao"
+                },
+                "nld": {
+                    "official": "Land Curaçao",
+                    "common": "Curaçao"
+                },
+                "pap": {
+                    "official": "Pais Kòrsou",
+                    "common": "Pais Kòrsou"
+                }
+            }
+        },
+        "tld": [
+            ".cw"
+        ],
+        "cca2": "CW",
+        "ccn3": "531",
+        "cca3": "CUW",
+        "independent": false,
+        "status": "officially-assigned",
+        "unMember": false,
+        "currencies": {
+            "ANG": {
+                "name": "Netherlands Antillean guilder",
+                "symbol": "ƒ"
+            }
+        },
+        "idd": {
+            "root": "+5",
+            "suffixes": [
+                "99"
+            ]
+        },
+        "capital": [
+            "Willemstad"
+        ],
+        "altSpellings": [
+            "CW",
+            "Curacao",
+            "Kòrsou",
+            "Country of Curaçao",
+            "Land Curaçao",
+            "Pais Kòrsou"
+        ],
+        "region": "Americas",
+        "subregion": "Caribbean",
+        "languages": {
+            "eng": "English",
+            "nld": "Dutch",
+            "pap": "Papiamento"
+        },
+        "translations": {
+            "ara": {
+                "official": "دولة كوراساو",
+                "common": "كوراساو"
+            },
+            "bre": {
+                "official": "Bro Curaçao",
+                "common": "Curaçao"
+            },
+            "ces": {
+                "official": "Autonomní země Curaçao",
+                "common": "Curaçao"
+            },
+            "cym": {
+                "official": "Country of Curaçao",
+                "common": "Curaçao"
+            },
+            "deu": {
+                "official": "Land Curaçao",
+                "common": "Curaçao"
+            },
+            "est": {
+                "official": "Curaçao",
+                "common": "Curaçao"
+            },
+            "fin": {
+                "official": "Curaçao",
+                "common": "Curaçao"
+            },
+            "fra": {
+                "official": "Pays de Curaçao",
+                "common": "Curaçao"
+            },
+            "hun": {
+                "official": "Curaçao",
+                "common": "Curaçao"
+            },
+            "ita": {
+                "official": "Paese di Curaçao",
+                "common": "Curaçao"
+            },
+            "kor": {
+                "official": "퀴라소",
+                "common": "퀴라소"
+            },
+            "nld": {
+                "official": "Land Curaçao",
+                "common": "Curaçao"
+            },
+            "per": {
+                "official": "کوراسائو",
+                "common": "کوراسائو"
+            },
+            "pol": {
+                "official": "Curaçao",
+                "common": "Curaçao"
+            },
+            "por": {
+                "official": "País de Curaçao",
+                "common": "ilha da Curação"
+            },
+            "rus": {
+                "official": "Страна Кюрасао",
+                "common": "Кюрасао"
+            },
+            "slk": {
+                "official": "Curacao",
+                "common": "Curacao"
+            },
+            "spa": {
+                "official": "País de Curazao",
+                "common": "Curazao"
+            },
+            "srp": {
+                "official": "Курасао",
+                "common": "Курасао"
+            },
+            "swe": {
+                "official": "Curaçao",
+                "common": "Curaçao"
+            },
+            "tur": {
+                "official": "Curaçao",
+                "common": "Curaçao"
+            },
+            "urd": {
+                "official": "مملکتِ کیوراساؤ",
+                "common": "کیوراساؤ"
+            },
+            "zho": {
+                "official": "库拉索",
+                "common": "库拉索"
+            }
+        },
+        "latlng": [
+            12.116667,
+            -68.933333
+        ],
+        "landlocked": false,
+        "area": 444.0,
+        "demonyms": {
+            "eng": {
+                "f": "Curaçaoan",
+                "m": "Curaçaoan"
+            },
+            "fra": {
+                "f": "Curacienne",
+                "m": "Curacien"
+            }
+        },
+        "flag": "\uD83C\uDDE8\uD83C\uDDFC",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/9D3hTeA3qKaRT7S16",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/1216719"
+        },
+        "population": 155014,
+        "fifa": "CUW",
+        "car": {
+            "signs": [
+                "CW"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC-04:00"
+        ],
+        "continents": [
+            "North America"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/cw.png",
+            "svg": "https://flagcdn.com/cw.svg"
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/cw.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/cw.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                12.1,
+                -68.92
+            ]
+        }
+    },
+    {
+        "name": {
+            "common": "Belgium",
+            "official": "Kingdom of Belgium",
+            "nativeName": {
+                "deu": {
+                    "official": "Königreich Belgien",
+                    "common": "Belgien"
+                },
+                "fra": {
+                    "official": "Royaume de Belgique",
+                    "common": "Belgique"
+                },
+                "nld": {
+                    "official": "Koninkrijk België",
+                    "common": "België"
+                }
+            }
+        },
+        "tld": [
+            ".be"
+        ],
+        "cca2": "BE",
+        "ccn3": "056",
+        "cca3": "BEL",
+        "cioc": "BEL",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "EUR": {
+                "name": "Euro",
+                "symbol": "€"
+            }
+        },
+        "idd": {
+            "root": "+3",
+            "suffixes": [
+                "2"
+            ]
+        },
+        "capital": [
+            "Brussels"
+        ],
+        "altSpellings": [
+            "BE",
+            "België",
+            "Belgie",
+            "Belgien",
+            "Belgique",
+            "Kingdom of Belgium",
+            "Koninkrijk België",
+            "Royaume de Belgique",
+            "Königreich Belgien"
+        ],
+        "region": "Europe",
+        "subregion": "Western Europe",
+        "languages": {
+            "deu": "German",
+            "fra": "French",
+            "nld": "Dutch"
+        },
+        "translations": {
+            "ara": {
+                "official": "مملكة بلجيكا",
+                "common": "بلجيكا"
+            },
+            "bre": {
+                "official": "Rouantelezh Belgia",
+                "common": "Belgia"
+            },
+            "ces": {
+                "official": "Belgické království",
+                "common": "Belgie"
+            },
+            "cym": {
+                "official": "Teyrnas Gwlad Belg",
+                "common": "Gwlad Belg"
+            },
+            "deu": {
+                "official": "Königreich Belgien",
+                "common": "Belgien"
+            },
+            "est": {
+                "official": "Belgia Kuningriik",
+                "common": "Belgia"
+            },
+            "fin": {
+                "official": "Belgian kuningaskunta",
+                "common": "Belgia"
+            },
+            "fra": {
+                "official": "Royaume de Belgique",
+                "common": "Belgique"
+            },
+            "hrv": {
+                "official": "Kraljevina Belgija",
+                "common": "Belgija"
+            },
+            "hun": {
+                "official": "Belga Királyság",
+                "common": "Belgium"
+            },
+            "ita": {
+                "official": "Regno del Belgio",
+                "common": "Belgio"
+            },
+            "jpn": {
+                "official": "ベルギー王国",
+                "common": "ベルギー"
+            },
+            "kor": {
+                "official": "벨기에 왕국",
+                "common": "벨기에"
+            },
+            "nld": {
+                "official": "Koninkrijk België",
+                "common": "België"
+            },
+            "per": {
+                "official": "پادشاهی بلژیک",
+                "common": "بلژیک"
+            },
+            "pol": {
+                "official": "Królestwo Belgii",
+                "common": "Belgia"
+            },
+            "por": {
+                "official": "Reino da Bélgica",
+                "common": "Bélgica"
+            },
+            "rus": {
+                "official": "Королевство Бельгия",
+                "common": "Бельгия"
+            },
+            "slk": {
+                "official": "Belgické kráľovstvo",
+                "common": "Belgicko"
+            },
+            "spa": {
+                "official": "Reino de Bélgica",
+                "common": "Bélgica"
+            },
+            "srp": {
+                "official": "Краљевина Белгија",
+                "common": "Белгија"
+            },
+            "swe": {
+                "official": "Konungariket Belgien",
+                "common": "Belgien"
+            },
+            "tur": {
+                "official": "Belçika Krallığı",
+                "common": "Belğika"
+            },
+            "urd": {
+                "official": "مملکتِ بلجئیم",
+                "common": "بلجئیم"
+            },
+            "zho": {
+                "official": "比利时王国",
+                "common": "比利时"
+            }
+        },
+        "latlng": [
+            50.83333333,
+            4.0
+        ],
+        "landlocked": false,
+        "borders": [
+            "FRA",
+            "DEU",
+            "LUX",
+            "NLD"
+        ],
+        "area": 30528.0,
+        "demonyms": {
+            "eng": {
+                "f": "Belgian",
+                "m": "Belgian"
+            },
+            "fra": {
+                "f": "Belge",
+                "m": "Belge"
+            }
+        },
+        "flag": "\uD83C\uDDE7\uD83C\uDDEA",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/UQQzat85TCtPRXAL8",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/52411"
+        },
+        "population": 11555997,
+        "gini": {
+            "2018": 27.2
+        },
+        "fifa": "BEL",
+        "car": {
+            "signs": [
+                "B"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC+01:00"
+        ],
+        "continents": [
+            "Europe"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/be.png",
+            "svg": "https://flagcdn.com/be.svg",
+            "alt": "The flag of Belgium is composed of three equal vertical bands of black, yellow and red."
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/be.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/be.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                50.83,
+                4.33
+            ]
+        },
+        "postalCode": {
+            "format": "####",
+            "regex": "^(\\d{4})$"
+        }
+    }
+]
