@@ -49,7 +49,7 @@ export default async function CountryName({ params }) {
                         </div>
                         {country.borders &&
                             <div key={index}>
-                                <Borders countryBorders={country.borders} />
+                                <Borders countryBorders={country.borders} index={index} />
                             </div>
                         }
                     </div>

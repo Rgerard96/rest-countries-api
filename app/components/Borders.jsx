@@ -8,10 +8,10 @@ async function getBorders(countryBorders) {
     return borders;
 }
 
-export default async function Borders({ countryBorders }) {
+export default async function Borders({ countryBorders, index }) {
     const borders = await getBorders(countryBorders);
     return (
-        <div className="mt-12 sm:mt-24 flex flex-col sm:flex-row space-y-3 sm:space-y-0 sm:space-x-3">
+        <div key={index} className="mt-12 sm:mt-24 flex flex-col sm:flex-row space-y-3 sm:space-y-0 sm:space-x-3">
             <div className="flex-none mt-2">
                 <p className="font-semibold">Border countries:</p>
             </div>
