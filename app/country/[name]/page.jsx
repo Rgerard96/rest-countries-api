@@ -15,13 +15,13 @@ export default async function CountryName({ params }) {
 
     return (
         <div className="max-w-[1600px] mx-auto">
-            <Link href='/' className="drop-shadow-lg rounded-md px-8 py-2 flex space-x-2 mb-20 w-fit bg-white items-center hover:bg-gray-50">
+            <Link href='/' className="drop-shadow-lg rounded-md px-8 py-2 flex space-x-2 mb-16 sm:mb-20 w-fit bg-white dark:bg-dark-blue items-center hover:bg-gray-50 hover:dark:bg-very-dark-blue">
                 <FaArrowLeftLong />
                 <span>Back</span>
             </Link>
-            {country.map((country) => (
-                <div className="flex justify-between space-x-40 items-center">
-                    <div className="h-[450px] relative flex-1">
+            {country.map((country, index) => (
+                <div className="flex flex-col sm:flex-row justify-between space-y-10 sm:space-y-0 sm:space-x-40 items-center">
+                    <div className="h-60 sm:h-[450px] w-full relative sm:flex-1">
                         <Image
                             src={country.flags.svg}
                             alt={`${country.name.common} image`}
@@ -33,7 +33,7 @@ export default async function CountryName({ params }) {
                     </div>
                     <div className="flex-1">
                         <h1 className="mb-8 text-3xl font-bold">{country.name.common}</h1>
-                        <div className="flex space-x-36">
+                        <div className="flex flex-col sm:flex-row space-y-12 sm:space-y-0 sm:space-x-36">
                             <div className="space-y-2">
                                 <p><span className="font-semibold">Native Name:</span>  {country.name.official}</p>
                                 <p><span className="font-semibold">Population:</span>  {country.population.toLocaleString()}</p>
@@ -48,7 +48,7 @@ export default async function CountryName({ params }) {
                             </div>
                         </div>
                         {country.borders &&
-                            <Borders countryBorders={country.borders} />
+                            <Borders countryBorders={country.borders} index={index} />
                         }
                     </div>
                 </div>

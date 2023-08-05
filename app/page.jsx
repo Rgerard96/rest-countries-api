@@ -19,10 +19,10 @@ export default function Home() {
       <div className="mb-14 w-full">
         <Search getSearchResults={(results) => setCountries(results)} />
       </div>
-      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 xl:gap-20'>
+      <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-10 xl:gap-20'>
         {countries.map((country, index) => (
-          <div>
-            <CountryCard country={country} index={index} />
+          <div key={index}>
+            <CountryCard country={country} />
           </div>
         ))}
       </div>

@@ -14,10 +14,10 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={`${font.className} bg-very-light-gray relative text-very-dark-blue`}>
+    <html lang="en" className=''>
+      <body className={`${font.className} bg-very-light-gray dark:bg-very-dark-blue relative text-very-dark-blue-text dark:text-white overflow-y-scroll`}>
         <Header />
-        <main className='mt-28 p-6'>
+        <main className='mt-24 sm:mt-28 p-6'>
           {children}
         </main>
       </body>
