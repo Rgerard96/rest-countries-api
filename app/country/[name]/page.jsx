@@ -43,12 +43,12 @@ export default async function CountryName({ params }) {
                             </div>
                             <div className="space-y-2">
                                 <p><span className="font-semibold">Top Level Domain:</span>  {country.tld}</p>
-                                <p><span className="font-semibold">Currencies:</span> {Object.values(country.currencies)[0].name}</p>
-                                <p><span className="font-semibold">Languages:</span>  {Object.values(country.languages).toString().replace(/,/g, ', ')}</p>
+                                <p><span className="font-semibold">Currencies:</span> {country.currencies && Object.values(country.currencies)[0].name}</p>
+                                <p><span className="font-semibold">Languages:</span>  {country.languages && Object.values(country.languages).toString().replace(/,/g, ', ')}</p>
                             </div>
                         </div>
                         {country.borders &&
-                                <Borders countryBorders={country.borders}/>
+                            <Borders countryBorders={country.borders} />
                         }
                     </div>
                 </div>
